@@ -1,0 +1,2 @@
+# Scroll Snap type 
+ 
