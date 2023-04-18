@@ -33,7 +33,7 @@ section .item {
 }
 
 .container .item:nth-child(3) {
-    background-color: greenyellow;
+    background-color: blue;
     color: white;
 }
 
@@ -42,12 +42,17 @@ section .item {
     color: white;
 }
 
+.container .item:nth-child(5) {
+    background-color: yellow;
+    color: black;
+}
+
 
 @media (max-width: 500px) {
  section {
    display: flex;
     overflow-x: scroll;
-    width: 350px;
+    width: 400px;
     scroll-snap-type: x mandatory; 
    }
 }
