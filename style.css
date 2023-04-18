@@ -43,7 +43,7 @@ section .item {
 }
 
 
-@media (max-width: 450px) {
+@media (max-width: 412px) {
  section {
    display: flex;
     overflow-x: scroll;
