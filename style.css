@@ -33,7 +33,7 @@ section .item {
 }
 
 .container .item:nth-child(3) {
-    background-color: blue;
+    background-color: magenta;
     color: white;
 }
 
@@ -43,8 +43,8 @@ section .item {
 }
 
 .container .item:nth-child(5) {
-    background-color: yellow;
-    color: black;
+    background-color: limegreen;
+    color: white;
 }
 
 
