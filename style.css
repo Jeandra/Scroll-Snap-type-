@@ -5,21 +5,23 @@
 
 .container {
     display: flex;
-    overflow: scroll;
-    padding: 24px;
-    width: 300px;
-    scroll-snap-type: x mandatory;
-    scroll-padding: 24px;
-    border-radius: 8px;
-    gap: 12px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    padding: 20px;
+    
+   
 }
 
-.container .item {
-    flex: 0 0 100%;
-    padding: 24px;
-    border-radius: 8px;
-    scroll-snap-align: start;
-   
+section .item {
+   margin: 10px;
+   padding: 24px;
+   border-radius: 8px;
+   flex: 0 0 100%;
+   scroll-snap-align: start; 
+   width: 250px;  
+
 }
 
 .container .item:nth-child(1) {
@@ -41,4 +43,15 @@
     background-color: rgb(221, 45, 74);
     color: white;
 }
+
+
+@media (max-width: 360px) {
+ section {
+   display: flex;
+    overflow-x: scroll;
+    width: 300px;
+    scroll-snap-type: x mandatory; 
+   }
+}
+
 
