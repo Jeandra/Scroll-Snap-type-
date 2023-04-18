@@ -7,7 +7,7 @@
     display: flex;
     overflow: scroll;
     padding: 24px;
-    width: 1366px;
+    width: 300px;
     scroll-snap-type: x mandatory;
     scroll-padding: 24px;
     border-radius: 8px;
@@ -21,3 +21,24 @@
     scroll-snap-align: start;
    
 }
+
+.container .item:nth-child(1) {
+    background-color: blueviolet;
+    color: white;
+}
+
+.container .item:nth-child(2) {
+    background-color: orangered;
+    color: white;
+}
+
+.container .item:nth-child(3) {
+    background-color: greenyellow;
+    color: white;
+}
+
+.container .item:nth-child(4) {
+    background-color: rgb(221, 45, 74);
+    color: white;
+}
+
